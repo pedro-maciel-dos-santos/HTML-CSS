@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5
+    </title>
+</head>
+<body>
+    <h1>Colocando vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midia/meu-video.mp4" width="400" poster="imagens/tumbnail.jpg" controls loop></video>
+    <!--Handbrake, app para conversão de vídeos, assim como o grimp é para imagens. Converter em OGV é importante pelo fato de navegadores não conseguirem usufruir do mMP4 e precisar de outro formato... height=altura/width=largura-->
+    <hr>
+    <h1>Outra forma de colocar vídeos no seu site:</h1>
+    <video controls width="250">
+<source src="midia/meu-video-3.mp4" type="video/mp4">
+<source src="midia/meu-video-3.ogv" type="video/ogv">
+    </video>
+    <hr>
+    <h1>Incorporação de vídeos externos</h1>
+    <!--Vá no yt, escolha o vídeo, clique em incorporar e copie o código HTML. Vimeo-->
+    <iframe width="400" height="215" src="https://www.youtube.com/embed/hdtScJUZOhc?si=6QOjjMePlmjbVAVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

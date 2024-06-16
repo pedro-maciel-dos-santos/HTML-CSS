@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+h1{
+    color: white;
+    background-color: purple;
+}
+h2{
+    color: white;
+    background-color: purple;
+    
+}
+p{
+    color: white;
+    background-color: purple;
+}
+a{
+    background-color: black;
+}

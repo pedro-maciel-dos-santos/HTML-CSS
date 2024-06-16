@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+           border: 10px solid darkgray;
+            padding: 10px 10px 10px 10px;
+            margin: 20px 20px 40px 20px;;
+            outline: 5px dashed salmon;
+            /*
+            margin: auto se for uma caixa, text-align: center se for um texto
+            
+            margin: 10px 10px 10px 10px;
+            1-10 top, 2-10 right, 3-10 bottom, 4-10 left
+            
+            border 1-px, 2-solid, 3-color 
+            */
+        }
+        a{
+            border-width: 10px;
+            border-style: double;
+            border-color: darkred;
+            padding: 10px 10px 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box-Level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>
+<!--user agent é o navegador que está exibindo o conteúdo, todo navegador tem uma configuração básica que geralmente é seguida por todos eles, ex:
+------------
+h1 é um bloco do tipo display: block;
+Sempre que coloca display:block; ele vai ser um elemento do tipo box-level
+------------
+p também é um display: block;
+------------
+a é do tipo inline-level, inline: block;
+-->
