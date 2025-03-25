@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Media Query</h1>
+        <i class="bi bi-list" id="burguer" onclick="clickMenu()"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem autem, quaerat ipsa, rem velit nemo quasi, quo sunt eaque quidem nisi quam cumque! Laborum odio, delectus quod mollitia illum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam vitae voluptas animi ad nulla recusandae illo quod. Iure atque assumenda deleniti error blanditiis id nostrum suscipit deserunt, eum provident nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed porro nesciunt praesentium repellat. Ea architecto assumenda exercitationem ipsam amet reiciendis recusandae perspiciatis placeat possimus non? Ad est laborum accusantium!</p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, minus consectetur laudantium esse odio tenetur nihil totam voluptatum inventore voluptas quia nesciunt, beatae, numquam praesentium assumenda porro eligendi incidunt labore?
+                Velit tenetur porro architecto, consequatur officia iusto tempora repellat. Commodi deserunt quisquam provident quo repellat velit! Delectus magnam nobis magni minus sit recusandae vero, officiis a ratione, assumenda, nam unde.
+                Quia dolorum amet voluptatibus debitis officia at doloremque doloribus accusantium, nobis quisquam dolore neque laudantium et minima earum. Neque dicta nisi minima accusantium ex, dolore accusamus necessitatibus consectetur ducimus tenetur.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus labore quod iste sed similique repellendus ad minus facilis eum debitis, commodi, laborum velit sint esse optio? In enim ea mollitia.
+            Rem laborum ut impedit! Eveniet illum eum fugit. Quibusdam ipsum aut libero doloribus cumque, vero natus nisi quasi voluptates ipsam neque alias sunt quo ratione. Repellat et libero tempora suscipit.
+            Laboriosam, aliquam recusandae deleniti dolorum pariatur deserunt ut iusto molestiae architecto corrupti officiis qui doloremque id impedit culpa, porro corporis quo quia quidem voluptatem molestias, facilis cumque. Qui, natus iusto?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
